@@ -29,11 +29,12 @@ footer, header, hgroup, menu, nav, section {
 	display: block;
 }
 header{
+    padding:2%;
     display:flex;
     justify-content: space-evenly;
 }
 nav{
-    border-width: 20px solid white;
+    border: 20px solid white;
 }
 body {
 	line-height: 1;
@@ -182,4 +183,13 @@ footer nav {
 footer nav a {
     color: white;
     text-decoration: none;
+}
+/* tablet*/
+@media(max-width:800px){
+    
+    }
+    
+/* mobile */
+@media(max-width:500px){
+
 }
