@@ -28,13 +28,19 @@ article, aside, details, figcaption, figure,
 footer, header, hgroup, menu, nav, section {
 	display: block;
 }
-header{
+.first{
+    width:800px;
+    margin-left: 325px;
     padding:2%;
     display:flex;
-    justify-content: space-evenly;
+    justify-content: center;
+    align-content: center;
 }
 nav{
-    border: 20px solid white;
+    width:800px;
+    display:flex;
+    justify-content:space-evenly;
+    align-items:center
 }
 body {
 	line-height: 1;
@@ -118,37 +124,74 @@ p {
     display: flex;
     flex-wrap:wrap;
     align-items: center;
-    justify-content: center;
+    justify-content: space-evenly;
+}
+.boxes{
+    width:800px;
+    display:flex;
+    flex-wrap:wrap;
+    justify-content:space-evenly;
+    align-content: center;
 }
 
 .boxes .box1{
+    height:100px;
+    width:100px;
+    margin:3%;
     background-color:teal;
 }
 .boxes .box2{
+    height:100px;
+    width:100px;
+    margin:3%;
     background-color:gold;
 }
 .boxes .box3{
+    height:100px;
+    width:100px;
+    margin:3%;
     background-color:cadetblue;
 }
 .boxes .box4{
+    height:100px;
+    width:100px;
+    margin:3%;
     background-color:coral;
 }
 .boxes .box5{
+    height:100px;
+    width:100px;
+    margin:3%;
     background-color:crimson;
 }
 .boxes .box6{
+    height:100px;
+    width:100px;
+    margin:3%;
     background-color:forestgreen;
 }
 .boxes .box7{
+    height:100px;
+    width:100px;
+    margin:3%;
     background-color:darkorchid;
 }
 .boxes .box8{
+    height:100px;
+    width:100px;
+    margin:3%;
     background-color:hotpink;
 }
 .boxes .box9{
+    height:100px;
+    width:100px;
+    margin:3%;
     background-color: indigo;
 }
 .boxes .box10{
+    height:100px;
+    width:100px;
+    margin:3%;
     background-color: dodgerblue;
 }
 
@@ -186,10 +229,14 @@ footer nav a {
 }
 /* tablet*/
 @media(max-width:800px){
-    
+    body{
+        background-color: blue;
     }
-    
+    }
+
 /* mobile */
 @media(max-width:500px){
-
+    body{
+        background-color:yellow;
+    }
 }
